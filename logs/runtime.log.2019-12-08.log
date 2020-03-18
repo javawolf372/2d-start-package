@@ -1,0 +1,624 @@
+2019-12-08 18:53:56.874[main]INFO  com.zhixin.wolf.main.Map2DServicesApplication -Starting Map2DServicesApplication v0.0.1-SNAPSHOT on DESKTOP-AFF7SD3 with PID 197188 (D:\item\2D效果\2D程序包\2D-Services-0.0.1-SNAPSHOT.jar started by wolf in D:\item\2D效果\2D程序包)
+2019-12-08 18:53:56.892[main]INFO  com.zhixin.wolf.main.Map2DServicesApplication -No active profile set, falling back to default profiles: default
+2019-12-08 18:53:57.058[main]INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@9d14966: startup date [Sun Dec 08 18:53:57 CST 2019]; root of context hierarchy
+2019-12-08 18:53:57.930[background-preinit]INFO  org.hibernate.validator.internal.util.Version -HV000001: Hibernate Validator 5.3.5.Final
+2019-12-08 18:54:00.464[main]INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer -Tomcat initialized with port(s): 8000 (http)
+2019-12-08 18:54:00.489[main]INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2019-12-08 18:54:00.494[main]INFO  org.apache.catalina.core.StandardEngine -Starting Servlet Engine: Apache Tomcat/8.5.15
+2019-12-08 18:54:01.112[localhost-startStop-1]INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2019-12-08 18:54:01.112[localhost-startStop-1]INFO  org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 4054 ms
+2019-12-08 18:54:01.379[localhost-startStop-1]INFO  o.s.boot.web.servlet.ServletRegistrationBean -Mapping servlet: 'dispatcherServlet' to [/]
+2019-12-08 18:54:01.388[localhost-startStop-1]INFO  o.s.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-12-08 18:54:01.389[localhost-startStop-1]INFO  o.s.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-12-08 18:54:01.391[localhost-startStop-1]INFO  o.s.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-12-08 18:54:01.391[localhost-startStop-1]INFO  o.s.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'requestContextFilter' to: [/*]
+2019-12-08 18:54:01.497[main]WARN  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -Autowired annotation is not supported on static fields: private static java.lang.Integer com.zhixin.wolf.util.CoordinatesUtils.imgW
+2019-12-08 18:54:01.498[main]WARN  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -Autowired annotation is not supported on static fields: private static java.lang.Integer com.zhixin.wolf.util.CoordinatesUtils.imgH
+2019-12-08 18:54:01.498[main]WARN  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -Autowired annotation is not supported on static fields: private static java.lang.Integer com.zhixin.wolf.util.CoordinatesUtils.imgI
+2019-12-08 18:54:01.504[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -================获取到定位配置信息start=======================
+2019-12-08 18:54:01.508[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=1, roomName='卫生间', leftTopX=15, leftTopY=7, leftDownX=15, leftDownY=157, rightTopX=145, rightTopY=7, rightDownX=145, rightDownY=157, centerX=82, centerY=87, mainNumR=3, mainNumC=4}
+2019-12-08 18:54:01.512[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=2, roomName='讯问室3', leftTopX=159, leftTopY=7, leftDownX=160, leftDownY=99, rightTopX=293, rightTopY=7, rightDownX=293, rightDownY=99, centerX=218, centerY=52, mainNumR=3, mainNumC=2}
+2019-12-08 18:54:01.519[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=3, roomName='案审指挥室', leftTopX=304, leftTopY=7, leftDownX=304, leftDownY=99, rightTopX=417, rightTopY=7, rightDownX=417, rightDownY=99, centerX=365, centerY=52, mainNumR=3, mainNumC=2}
+2019-12-08 18:54:01.526[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=4, roomName='讯问室4', leftTopX=428, leftTopY=7, leftDownX=428, leftDownY=99, rightTopX=558, rightTopY=7, rightDownX=558, rightDownY=99, centerX=502, centerY=52, mainNumR=3, mainNumC=2}
+2019-12-08 18:54:01.532[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=5, roomName='讯问室5', leftTopX=571, leftTopY=7, leftDownX=571, leftDownY=99, rightTopX=702, rightTopY=7, rightDownX=702, rightDownY=99, centerX=637, centerY=52, mainNumR=3, mainNumC=2}
+2019-12-08 18:54:01.538[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=6, roomName='案件指挥室', leftTopX=715, leftTopY=7, leftDownX=715, leftDownY=99, rightTopX=826, rightTopY=7, rightDownX=826, rightDownY=99, centerX=776, centerY=52, mainNumR=3, mainNumC=2}
+2019-12-08 18:54:01.545[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=7, roomName='讯问室6', leftTopX=838, leftTopY=7, leftDownX=838, leftDownY=99, rightTopX=970, rightTopY=7, rightDownX=970, rightDownY=99, centerX=912, centerY=52, mainNumR=3, mainNumC=2}
+2019-12-08 18:54:01.552[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=8, roomName='候问室2', leftTopX=15, leftTopY=167, leftDownX=15, leftDownY=217, rightTopX=196, rightTopY=167, rightDownX=196, rightDownY=216, centerX=107, centerY=193, mainNumR=5, mainNumC=1}
+2019-12-08 18:54:01.560[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=9, roomName='讯问室2', leftTopX=15, leftTopY=226, leftDownX=15, leftDownY=316, rightTopX=196, rightTopY=226, rightDownX=196, rightDownY=316, centerX=107, centerY=273, mainNumR=5, mainNumC=2}
+2019-12-08 18:54:01.571[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=10, roomName='讯问室1', leftTopX=15, leftTopY=326, leftDownX=15, leftDownY=410, rightTopX=196, rightTopY=326, rightDownX=196, rightDownY=410, centerX=107, centerY=370, mainNumR=5, mainNumC=2}
+2019-12-08 18:54:01.588[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=11, roomName='候问室1', leftTopX=15, leftTopY=417, leftDownX=15, leftDownY=468, rightTopX=196, rightTopY=417, rightDownX=196, rightDownY=468, centerX=107, centerY=443, mainNumR=5, mainNumC=1}
+2019-12-08 18:54:01.603[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=12, roomName='询问室1', leftTopX=1058, leftTopY=178, leftDownX=1058, leftDownY=260, rightTopX=1213, rightTopY=178, rightDownX=1213, rightDownY=260, centerX=1142, centerY=221, mainNumR=4, mainNumC=2}
+2019-12-08 18:54:01.615[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=13, roomName='候问室3', leftTopX=1058, leftTopY=267, leftDownX=1058, leftDownY=327, rightTopX=1213, rightTopY=267, rightDownX=1213, rightDownY=327, centerX=1142, centerY=297, mainNumR=4, mainNumC=1}
+2019-12-08 18:54:01.628[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=14, roomName='询问室2', leftTopX=1058, leftTopY=335, leftDownX=1058, leftDownY=415, rightTopX=1213, rightTopY=335, rightDownX=1213, rightDownY=415, centerX=1142, centerY=376, mainNumR=4, mainNumC=2}
+2019-12-08 18:54:01.639[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=15, roomName='候问室4', leftTopX=1058, leftTopY=421, leftDownX=1058, leftDownY=482, rightTopX=1213, rightTopY=421, rightDownX=1213, rightDownY=482, centerX=1142, centerY=452, mainNumR=4, mainNumC=1}
+2019-12-08 18:54:01.653[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=17, roomName='医疗室', leftTopX=285, leftTopY=162, leftDownX=285, leftDownY=258, rightTopX=377, rightTopY=162, rightDownX=376, rightDownY=258, centerX=333, centerY=211, mainNumR=2, mainNumC=2}
+2019-12-08 18:54:01.664[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=16, roomName='约束室', leftTopX=1058, leftTopY=490, leftDownX=1058, leftDownY=566, rightTopX=1213, rightTopY=490, rightDownX=1213, rightDownY=566, centerX=1142, centerY=528, mainNumR=4, mainNumC=2}
+2019-12-08 18:54:01.681[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=19, roomName='辨认室', leftTopX=517, leftTopY=162, leftDownX=517, leftDownY=258, rightTopX=632, rightTopY=162, rightDownX=632, rightDownY=258, centerX=577, centerY=211, mainNumR=3, mainNumC=2}
+2019-12-08 18:54:01.694[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=18, roomName='讯问室7', leftTopX=383, leftTopY=162, leftDownX=383, leftDownY=258, rightTopX=512, rightTopY=162, rightDownX=512, rightDownY=258, centerX=453, centerY=211, mainNumR=3, mainNumC=2}
+2019-12-08 18:54:01.708[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=21, roomName='法制视频监督信息中心', leftTopX=798, leftTopY=162, leftDownX=798, leftDownY=230, rightTopX=970, rightTopY=162, rightDownX=970, rightDownY=230, centerX=883, centerY=198, mainNumR=5, mainNumC=2}
+2019-12-08 18:54:01.722[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=20, roomName='音视频刻录室', leftTopX=637, leftTopY=162, leftDownX=637, leftDownY=230, rightTopX=792, rightTopY=162, rightDownX=792, rightDownY=230, centerX=716, centerY=198, mainNumR=4, mainNumC=2}
+2019-12-08 18:54:01.734[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=23, roomName='人员信息采集室', leftTopX=285, leftTopY=330, leftDownX=285, leftDownY=416, rightTopX=433, rightTopY=330, rightDownX=433, rightDownY=416, centerX=361, centerY=372, mainNumR=4, mainNumC=2}
+2019-12-08 18:54:01.747[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=22, roomName='文印室', leftTopX=285, leftTopY=270, leftDownX=285, leftDownY=325, rightTopX=433, rightTopY=270, rightDownX=433, rightDownY=325, centerX=361, centerY=296, mainNumR=4, mainNumC=1}
+2019-12-08 18:54:01.767[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=25, roomName='设备间', leftTopX=15, leftTopY=476, leftDownX=15, leftDownY=636, rightTopX=141, rightTopY=476, rightDownX=141, rightDownY=636, centerX=76, centerY=546, mainNumR=3, mainNumC=4}
+2019-12-08 18:54:01.777[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=24, roomName='案件会商室', leftTopX=438, leftTopY=270, leftDownX=438, leftDownY=415, rightTopX=631, rightTopY=270, rightDownX=631, rightDownY=415, centerX=532, centerY=337, mainNumR=5, mainNumC=4}
+2019-12-08 18:54:01.791[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=27, roomName='安全检查室', leftTopX=426, leftTopY=476, leftDownX=426, leftDownY=636, rightTopX=532, rightTopY=476, rightDownX=532, rightDownY=636, centerX=481, centerY=546, mainNumR=3, mainNumC=4}
+2019-12-08 18:54:01.801[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=26, roomName='涉案物品保管室', leftTopX=151, leftTopY=476, leftDownX=151, leftDownY=636, rightTopX=416, rightTopY=476, rightDownX=416, rightDownY=636, centerX=281, centerY=546, mainNumR=7, mainNumC=4}
+2019-12-08 18:54:01.816[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=29, roomName='测谎室', leftTopX=823, leftTopY=476, leftDownX=823, leftDownY=538, rightTopX=965, rightTopY=476, rightDownX=965, rightDownY=538, centerX=895, centerY=510, mainNumR=4, mainNumC=1}
+2019-12-08 18:54:01.838[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=28, roomName='值班登记室', leftTopX=541, leftTopY=476, leftDownX=541, leftDownY=636, rightTopX=692, rightTopY=476, rightDownX=692, rightDownY=636, centerX=617, centerY=546, mainNumR=4, mainNumC=4}
+2019-12-08 18:54:01.851[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=30, roomName='心理测试室', leftTopX=823, leftTopY=547, leftDownX=823, leftDownY=636, rightTopX=965, rightTopY=547, rightDownX=965, rightDownY=636, centerX=893, centerY=591, mainNumR=4, mainNumC=2}
+2019-12-08 18:54:01.867[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -================获取到定位配置信息end=========================
+2019-12-08 18:54:02.464[main]INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter -Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@9d14966: startup date [Sun Dec 08 18:53:57 CST 2019]; root of context hierarchy
+2019-12-08 18:54:02.654[main]INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/queryPersonRoundDataBySerialId]}" onto private com.zhixin.wolf.entity.PersonRoundEntity com.zhixin.wolf.controller.MapServicesController.queryPersonRoundDataBySerialId(javax.servlet.http.HttpServletRequest)
+2019-12-08 18:54:02.664[main]INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/queryPersonLocations]}" onto private java.util.List<com.zhixin.wolf.entity.PersonLocationEntity> com.zhixin.wolf.controller.MapServicesController.queryPersonLocations()
+2019-12-08 18:54:02.672[main]INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-12-08 18:54:02.674[main]INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-12-08 18:54:02.739[main]INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-08 18:54:02.739[main]INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-08 18:54:02.805[main]INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-08 18:54:03.156[main]INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -Registering beans for JMX exposure on startup
+2019-12-08 18:54:03.239[main]INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8000"]
+2019-12-08 18:54:03.277[main]INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-8000"]
+2019-12-08 18:54:03.302[main]ERROR org.apache.coyote.http11.Http11NioProtocol -Failed to start end point associated with ProtocolHandler ["http-nio-8000"]
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:463)
+	at sun.nio.ch.Net.bind(Net.java:455)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:978)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:628)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.zhixin.wolf.main.Map2DServicesApplication.main(Map2DServicesApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:50)
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:51)
+2019-12-08 18:54:03.335[main]ERROR org.apache.catalina.core.StandardService -Failed to start connector [Connector[HTTP/1.1-8000]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8000]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.zhixin.wolf.main.Map2DServicesApplication.main(Map2DServicesApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:50)
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:51)
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Tomcat";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1029)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 21 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:463)
+	at sun.nio.ch.Net.bind(Net.java:455)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:978)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:628)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022)
+	... 22 common frames omitted
+2019-12-08 18:54:03.401[main]INFO  org.apache.coyote.http11.Http11NioProtocol -Pausing ProtocolHandler ["http-nio-8000"]
+2019-12-08 18:54:03.402[main]INFO  org.apache.catalina.core.StandardService -Stopping service [Tomcat]
+2019-12-08 18:54:03.437[main]INFO  org.apache.catalina.util.LifecycleBase -The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2019-12-08 18:54:03.439[main]INFO  org.apache.coyote.http11.Http11NioProtocol -Stopping ProtocolHandler ["http-nio-8000"]
+2019-12-08 18:54:03.442[main]INFO  org.apache.coyote.http11.Http11NioProtocol -Destroying ProtocolHandler ["http-nio-8000"]
+2019-12-08 18:54:03.463[main]INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer -
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2019-12-08 18:54:03.480[main]ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8000 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8000, or configure this application to listen on another port.
+
+2019-12-08 18:54:03.497[main]INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@9d14966: startup date [Sun Dec 08 18:53:57 CST 2019]; root of context hierarchy
+2019-12-08 18:54:03.502[main]INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -Unregistering JMX-exposed beans on shutdown
+2019-12-08 18:54:34.045[main]INFO  com.zhixin.wolf.main.Map2DServicesApplication -Starting Map2DServicesApplication v0.0.1-SNAPSHOT on DESKTOP-AFF7SD3 with PID 199180 (D:\item\2D效果\2D程序包\2D-Services-0.0.1-SNAPSHOT.jar started by wolf in D:\item\2D效果\2D程序包)
+2019-12-08 18:54:34.062[main]INFO  com.zhixin.wolf.main.Map2DServicesApplication -No active profile set, falling back to default profiles: default
+2019-12-08 18:54:34.216[main]INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@57271b36: startup date [Sun Dec 08 18:54:34 CST 2019]; root of context hierarchy
+2019-12-08 18:54:34.985[background-preinit]INFO  org.hibernate.validator.internal.util.Version -HV000001: Hibernate Validator 5.3.5.Final
+2019-12-08 18:54:37.319[main]INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer -Tomcat initialized with port(s): 8000 (http)
+2019-12-08 18:54:37.340[main]INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2019-12-08 18:54:37.344[main]INFO  org.apache.catalina.core.StandardEngine -Starting Servlet Engine: Apache Tomcat/8.5.15
+2019-12-08 18:54:37.529[localhost-startStop-1]INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2019-12-08 18:54:37.529[localhost-startStop-1]INFO  org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 3313 ms
+2019-12-08 18:54:37.791[localhost-startStop-1]INFO  o.s.boot.web.servlet.ServletRegistrationBean -Mapping servlet: 'dispatcherServlet' to [/]
+2019-12-08 18:54:37.799[localhost-startStop-1]INFO  o.s.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-12-08 18:54:37.800[localhost-startStop-1]INFO  o.s.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-12-08 18:54:37.800[localhost-startStop-1]INFO  o.s.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-12-08 18:54:37.801[localhost-startStop-1]INFO  o.s.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'requestContextFilter' to: [/*]
+2019-12-08 18:54:37.896[main]WARN  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -Autowired annotation is not supported on static fields: private static java.lang.Integer com.zhixin.wolf.util.CoordinatesUtils.imgW
+2019-12-08 18:54:37.897[main]WARN  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -Autowired annotation is not supported on static fields: private static java.lang.Integer com.zhixin.wolf.util.CoordinatesUtils.imgH
+2019-12-08 18:54:37.897[main]WARN  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -Autowired annotation is not supported on static fields: private static java.lang.Integer com.zhixin.wolf.util.CoordinatesUtils.imgI
+2019-12-08 18:54:37.906[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -================获取到定位配置信息start=======================
+2019-12-08 18:54:37.911[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=1, roomName='卫生间', leftTopX=15, leftTopY=7, leftDownX=15, leftDownY=157, rightTopX=145, rightTopY=7, rightDownX=145, rightDownY=157, centerX=82, centerY=87, mainNumR=3, mainNumC=4}
+2019-12-08 18:54:37.918[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=2, roomName='讯问室3', leftTopX=159, leftTopY=7, leftDownX=160, leftDownY=99, rightTopX=293, rightTopY=7, rightDownX=293, rightDownY=99, centerX=218, centerY=52, mainNumR=3, mainNumC=2}
+2019-12-08 18:54:37.925[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=3, roomName='案审指挥室', leftTopX=304, leftTopY=7, leftDownX=304, leftDownY=99, rightTopX=417, rightTopY=7, rightDownX=417, rightDownY=99, centerX=365, centerY=52, mainNumR=3, mainNumC=2}
+2019-12-08 18:54:37.932[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=4, roomName='讯问室4', leftTopX=428, leftTopY=7, leftDownX=428, leftDownY=99, rightTopX=558, rightTopY=7, rightDownX=558, rightDownY=99, centerX=502, centerY=52, mainNumR=3, mainNumC=2}
+2019-12-08 18:54:37.939[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=5, roomName='讯问室5', leftTopX=571, leftTopY=7, leftDownX=571, leftDownY=99, rightTopX=702, rightTopY=7, rightDownX=702, rightDownY=99, centerX=637, centerY=52, mainNumR=3, mainNumC=2}
+2019-12-08 18:54:37.947[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=6, roomName='案件指挥室', leftTopX=715, leftTopY=7, leftDownX=715, leftDownY=99, rightTopX=826, rightTopY=7, rightDownX=826, rightDownY=99, centerX=776, centerY=52, mainNumR=3, mainNumC=2}
+2019-12-08 18:54:37.954[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=7, roomName='讯问室6', leftTopX=838, leftTopY=7, leftDownX=838, leftDownY=99, rightTopX=970, rightTopY=7, rightDownX=970, rightDownY=99, centerX=912, centerY=52, mainNumR=3, mainNumC=2}
+2019-12-08 18:54:37.961[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=8, roomName='候问室2', leftTopX=15, leftTopY=167, leftDownX=15, leftDownY=217, rightTopX=196, rightTopY=167, rightDownX=196, rightDownY=216, centerX=107, centerY=193, mainNumR=5, mainNumC=1}
+2019-12-08 18:54:37.971[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=9, roomName='讯问室2', leftTopX=15, leftTopY=226, leftDownX=15, leftDownY=316, rightTopX=196, rightTopY=226, rightDownX=196, rightDownY=316, centerX=107, centerY=273, mainNumR=5, mainNumC=2}
+2019-12-08 18:54:37.982[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=10, roomName='讯问室1', leftTopX=15, leftTopY=326, leftDownX=15, leftDownY=410, rightTopX=196, rightTopY=326, rightDownX=196, rightDownY=410, centerX=107, centerY=370, mainNumR=5, mainNumC=2}
+2019-12-08 18:54:37.997[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=11, roomName='候问室1', leftTopX=15, leftTopY=417, leftDownX=15, leftDownY=468, rightTopX=196, rightTopY=417, rightDownX=196, rightDownY=468, centerX=107, centerY=443, mainNumR=5, mainNumC=1}
+2019-12-08 18:54:38.006[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=12, roomName='询问室1', leftTopX=1058, leftTopY=178, leftDownX=1058, leftDownY=260, rightTopX=1213, rightTopY=178, rightDownX=1213, rightDownY=260, centerX=1142, centerY=221, mainNumR=4, mainNumC=2}
+2019-12-08 18:54:38.017[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=13, roomName='候问室3', leftTopX=1058, leftTopY=267, leftDownX=1058, leftDownY=327, rightTopX=1213, rightTopY=267, rightDownX=1213, rightDownY=327, centerX=1142, centerY=297, mainNumR=4, mainNumC=1}
+2019-12-08 18:54:38.029[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=14, roomName='询问室2', leftTopX=1058, leftTopY=335, leftDownX=1058, leftDownY=415, rightTopX=1213, rightTopY=335, rightDownX=1213, rightDownY=415, centerX=1142, centerY=376, mainNumR=4, mainNumC=2}
+2019-12-08 18:54:38.040[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=15, roomName='候问室4', leftTopX=1058, leftTopY=421, leftDownX=1058, leftDownY=482, rightTopX=1213, rightTopY=421, rightDownX=1213, rightDownY=482, centerX=1142, centerY=452, mainNumR=4, mainNumC=1}
+2019-12-08 18:54:38.054[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=17, roomName='医疗室', leftTopX=285, leftTopY=162, leftDownX=285, leftDownY=258, rightTopX=377, rightTopY=162, rightDownX=376, rightDownY=258, centerX=333, centerY=211, mainNumR=2, mainNumC=2}
+2019-12-08 18:54:38.067[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=16, roomName='约束室', leftTopX=1058, leftTopY=490, leftDownX=1058, leftDownY=566, rightTopX=1213, rightTopY=490, rightDownX=1213, rightDownY=566, centerX=1142, centerY=528, mainNumR=4, mainNumC=2}
+2019-12-08 18:54:38.082[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=19, roomName='辨认室', leftTopX=517, leftTopY=162, leftDownX=517, leftDownY=258, rightTopX=632, rightTopY=162, rightDownX=632, rightDownY=258, centerX=577, centerY=211, mainNumR=3, mainNumC=2}
+2019-12-08 18:54:38.097[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=18, roomName='讯问室7', leftTopX=383, leftTopY=162, leftDownX=383, leftDownY=258, rightTopX=512, rightTopY=162, rightDownX=512, rightDownY=258, centerX=453, centerY=211, mainNumR=3, mainNumC=2}
+2019-12-08 18:54:38.107[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=21, roomName='法制视频监督信息中心', leftTopX=798, leftTopY=162, leftDownX=798, leftDownY=230, rightTopX=970, rightTopY=162, rightDownX=970, rightDownY=230, centerX=883, centerY=198, mainNumR=5, mainNumC=2}
+2019-12-08 18:54:38.118[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=20, roomName='音视频刻录室', leftTopX=637, leftTopY=162, leftDownX=637, leftDownY=230, rightTopX=792, rightTopY=162, rightDownX=792, rightDownY=230, centerX=716, centerY=198, mainNumR=4, mainNumC=2}
+2019-12-08 18:54:38.134[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=23, roomName='人员信息采集室', leftTopX=285, leftTopY=330, leftDownX=285, leftDownY=416, rightTopX=433, rightTopY=330, rightDownX=433, rightDownY=416, centerX=361, centerY=372, mainNumR=4, mainNumC=2}
+2019-12-08 18:54:38.148[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=22, roomName='文印室', leftTopX=285, leftTopY=270, leftDownX=285, leftDownY=325, rightTopX=433, rightTopY=270, rightDownX=433, rightDownY=325, centerX=361, centerY=296, mainNumR=4, mainNumC=1}
+2019-12-08 18:54:38.164[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=25, roomName='设备间', leftTopX=15, leftTopY=476, leftDownX=15, leftDownY=636, rightTopX=141, rightTopY=476, rightDownX=141, rightDownY=636, centerX=76, centerY=546, mainNumR=3, mainNumC=4}
+2019-12-08 18:54:38.180[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=24, roomName='案件会商室', leftTopX=438, leftTopY=270, leftDownX=438, leftDownY=415, rightTopX=631, rightTopY=270, rightDownX=631, rightDownY=415, centerX=532, centerY=337, mainNumR=5, mainNumC=4}
+2019-12-08 18:54:38.194[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=27, roomName='安全检查室', leftTopX=426, leftTopY=476, leftDownX=426, leftDownY=636, rightTopX=532, rightTopY=476, rightDownX=532, rightDownY=636, centerX=481, centerY=546, mainNumR=3, mainNumC=4}
+2019-12-08 18:54:38.211[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=26, roomName='涉案物品保管室', leftTopX=151, leftTopY=476, leftDownX=151, leftDownY=636, rightTopX=416, rightTopY=476, rightDownX=416, rightDownY=636, centerX=281, centerY=546, mainNumR=7, mainNumC=4}
+2019-12-08 18:54:38.223[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=29, roomName='测谎室', leftTopX=823, leftTopY=476, leftDownX=823, leftDownY=538, rightTopX=965, rightTopY=476, rightDownX=965, rightDownY=538, centerX=895, centerY=510, mainNumR=4, mainNumC=1}
+2019-12-08 18:54:38.237[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=28, roomName='值班登记室', leftTopX=541, leftTopY=476, leftDownX=541, leftDownY=636, rightTopX=692, rightTopY=476, rightDownX=692, rightDownY=636, centerX=617, centerY=546, mainNumR=4, mainNumC=4}
+2019-12-08 18:54:38.256[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=30, roomName='心理测试室', leftTopX=823, leftTopY=547, leftDownX=823, leftDownY=636, rightTopX=965, rightTopY=547, rightDownX=965, rightDownY=636, centerX=893, centerY=591, mainNumR=4, mainNumC=2}
+2019-12-08 18:54:38.268[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -================获取到定位配置信息end=========================
+2019-12-08 18:54:38.849[main]INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter -Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@57271b36: startup date [Sun Dec 08 18:54:34 CST 2019]; root of context hierarchy
+2019-12-08 18:54:39.025[main]INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/queryPersonRoundDataBySerialId]}" onto private com.zhixin.wolf.entity.PersonRoundEntity com.zhixin.wolf.controller.MapServicesController.queryPersonRoundDataBySerialId(javax.servlet.http.HttpServletRequest)
+2019-12-08 18:54:39.036[main]INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/queryPersonLocations]}" onto private java.util.List<com.zhixin.wolf.entity.PersonLocationEntity> com.zhixin.wolf.controller.MapServicesController.queryPersonLocations()
+2019-12-08 18:54:39.042[main]INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-12-08 18:54:39.043[main]INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-12-08 18:54:39.105[main]INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-08 18:54:39.107[main]INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-08 18:54:39.179[main]INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-08 18:54:39.570[main]INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -Registering beans for JMX exposure on startup
+2019-12-08 18:54:39.654[main]INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8000"]
+2019-12-08 18:54:39.685[main]INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-8000"]
+2019-12-08 18:54:39.703[main]ERROR org.apache.coyote.http11.Http11NioProtocol -Failed to start end point associated with ProtocolHandler ["http-nio-8000"]
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:463)
+	at sun.nio.ch.Net.bind(Net.java:455)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:978)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:628)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.zhixin.wolf.main.Map2DServicesApplication.main(Map2DServicesApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:50)
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:51)
+2019-12-08 18:54:39.735[main]ERROR org.apache.catalina.core.StandardService -Failed to start connector [Connector[HTTP/1.1-8000]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8000]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.zhixin.wolf.main.Map2DServicesApplication.main(Map2DServicesApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:50)
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:51)
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Tomcat";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1029)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 21 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:463)
+	at sun.nio.ch.Net.bind(Net.java:455)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:978)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:628)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022)
+	... 22 common frames omitted
+2019-12-08 18:54:39.807[main]INFO  org.apache.coyote.http11.Http11NioProtocol -Pausing ProtocolHandler ["http-nio-8000"]
+2019-12-08 18:54:39.808[main]INFO  org.apache.catalina.core.StandardService -Stopping service [Tomcat]
+2019-12-08 18:54:39.842[main]INFO  org.apache.catalina.util.LifecycleBase -The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2019-12-08 18:54:39.845[main]INFO  org.apache.coyote.http11.Http11NioProtocol -Stopping ProtocolHandler ["http-nio-8000"]
+2019-12-08 18:54:39.853[main]INFO  org.apache.coyote.http11.Http11NioProtocol -Destroying ProtocolHandler ["http-nio-8000"]
+2019-12-08 18:54:39.866[main]INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer -
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2019-12-08 18:54:39.882[main]ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8000 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8000, or configure this application to listen on another port.
+
+2019-12-08 18:54:39.897[main]INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@57271b36: startup date [Sun Dec 08 18:54:34 CST 2019]; root of context hierarchy
+2019-12-08 18:54:39.903[main]INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -Unregistering JMX-exposed beans on shutdown
+2019-12-08 18:55:09.600[main]INFO  com.zhixin.wolf.main.Map2DServicesApplication -Starting Map2DServicesApplication v0.0.1-SNAPSHOT on DESKTOP-AFF7SD3 with PID 205276 (D:\item\2D效果\2D程序包\2D-Services-0.0.1-SNAPSHOT.jar started by wolf in D:\item\2D效果\2D程序包)
+2019-12-08 18:55:09.616[main]INFO  com.zhixin.wolf.main.Map2DServicesApplication -No active profile set, falling back to default profiles: default
+2019-12-08 18:55:09.773[main]INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2db18f22: startup date [Sun Dec 08 18:55:09 CST 2019]; root of context hierarchy
+2019-12-08 18:55:10.491[background-preinit]INFO  org.hibernate.validator.internal.util.Version -HV000001: Hibernate Validator 5.3.5.Final
+2019-12-08 18:55:12.785[main]INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer -Tomcat initialized with port(s): 8000 (http)
+2019-12-08 18:55:12.805[main]INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2019-12-08 18:55:12.809[main]INFO  org.apache.catalina.core.StandardEngine -Starting Servlet Engine: Apache Tomcat/8.5.15
+2019-12-08 18:55:12.990[localhost-startStop-1]INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2019-12-08 18:55:12.992[localhost-startStop-1]INFO  org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 3219 ms
+2019-12-08 18:55:13.242[localhost-startStop-1]INFO  o.s.boot.web.servlet.ServletRegistrationBean -Mapping servlet: 'dispatcherServlet' to [/]
+2019-12-08 18:55:13.250[localhost-startStop-1]INFO  o.s.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-12-08 18:55:13.251[localhost-startStop-1]INFO  o.s.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-12-08 18:55:13.251[localhost-startStop-1]INFO  o.s.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-12-08 18:55:13.252[localhost-startStop-1]INFO  o.s.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'requestContextFilter' to: [/*]
+2019-12-08 18:55:13.345[main]WARN  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -Autowired annotation is not supported on static fields: private static java.lang.Integer com.zhixin.wolf.util.CoordinatesUtils.imgW
+2019-12-08 18:55:13.346[main]WARN  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -Autowired annotation is not supported on static fields: private static java.lang.Integer com.zhixin.wolf.util.CoordinatesUtils.imgH
+2019-12-08 18:55:13.347[main]WARN  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -Autowired annotation is not supported on static fields: private static java.lang.Integer com.zhixin.wolf.util.CoordinatesUtils.imgI
+2019-12-08 18:55:13.353[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -================获取到定位配置信息start=======================
+2019-12-08 18:55:13.359[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=1, roomName='卫生间', leftTopX=15, leftTopY=7, leftDownX=15, leftDownY=157, rightTopX=145, rightTopY=7, rightDownX=145, rightDownY=157, centerX=82, centerY=87, mainNumR=3, mainNumC=4}
+2019-12-08 18:55:13.365[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=2, roomName='讯问室3', leftTopX=159, leftTopY=7, leftDownX=160, leftDownY=99, rightTopX=293, rightTopY=7, rightDownX=293, rightDownY=99, centerX=218, centerY=52, mainNumR=3, mainNumC=2}
+2019-12-08 18:55:13.372[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=3, roomName='案审指挥室', leftTopX=304, leftTopY=7, leftDownX=304, leftDownY=99, rightTopX=417, rightTopY=7, rightDownX=417, rightDownY=99, centerX=365, centerY=52, mainNumR=3, mainNumC=2}
+2019-12-08 18:55:13.379[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=4, roomName='讯问室4', leftTopX=428, leftTopY=7, leftDownX=428, leftDownY=99, rightTopX=558, rightTopY=7, rightDownX=558, rightDownY=99, centerX=502, centerY=52, mainNumR=3, mainNumC=2}
+2019-12-08 18:55:13.387[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=5, roomName='讯问室5', leftTopX=571, leftTopY=7, leftDownX=571, leftDownY=99, rightTopX=702, rightTopY=7, rightDownX=702, rightDownY=99, centerX=637, centerY=52, mainNumR=3, mainNumC=2}
+2019-12-08 18:55:13.393[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=6, roomName='案件指挥室', leftTopX=715, leftTopY=7, leftDownX=715, leftDownY=99, rightTopX=826, rightTopY=7, rightDownX=826, rightDownY=99, centerX=776, centerY=52, mainNumR=3, mainNumC=2}
+2019-12-08 18:55:13.401[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=7, roomName='讯问室6', leftTopX=838, leftTopY=7, leftDownX=838, leftDownY=99, rightTopX=970, rightTopY=7, rightDownX=970, rightDownY=99, centerX=912, centerY=52, mainNumR=3, mainNumC=2}
+2019-12-08 18:55:13.408[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=8, roomName='候问室2', leftTopX=15, leftTopY=167, leftDownX=15, leftDownY=217, rightTopX=196, rightTopY=167, rightDownX=196, rightDownY=216, centerX=107, centerY=193, mainNumR=5, mainNumC=1}
+2019-12-08 18:55:13.416[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=9, roomName='讯问室2', leftTopX=15, leftTopY=226, leftDownX=15, leftDownY=316, rightTopX=196, rightTopY=226, rightDownX=196, rightDownY=316, centerX=107, centerY=273, mainNumR=5, mainNumC=2}
+2019-12-08 18:55:13.431[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=10, roomName='讯问室1', leftTopX=15, leftTopY=326, leftDownX=15, leftDownY=410, rightTopX=196, rightTopY=326, rightDownX=196, rightDownY=410, centerX=107, centerY=370, mainNumR=5, mainNumC=2}
+2019-12-08 18:55:13.443[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=11, roomName='候问室1', leftTopX=15, leftTopY=417, leftDownX=15, leftDownY=468, rightTopX=196, rightTopY=417, rightDownX=196, rightDownY=468, centerX=107, centerY=443, mainNumR=5, mainNumC=1}
+2019-12-08 18:55:13.456[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=12, roomName='询问室1', leftTopX=1058, leftTopY=178, leftDownX=1058, leftDownY=260, rightTopX=1213, rightTopY=178, rightDownX=1213, rightDownY=260, centerX=1142, centerY=221, mainNumR=4, mainNumC=2}
+2019-12-08 18:55:13.466[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=13, roomName='候问室3', leftTopX=1058, leftTopY=267, leftDownX=1058, leftDownY=327, rightTopX=1213, rightTopY=267, rightDownX=1213, rightDownY=327, centerX=1142, centerY=297, mainNumR=4, mainNumC=1}
+2019-12-08 18:55:13.480[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=14, roomName='询问室2', leftTopX=1058, leftTopY=335, leftDownX=1058, leftDownY=415, rightTopX=1213, rightTopY=335, rightDownX=1213, rightDownY=415, centerX=1142, centerY=376, mainNumR=4, mainNumC=2}
+2019-12-08 18:55:13.491[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=15, roomName='候问室4', leftTopX=1058, leftTopY=421, leftDownX=1058, leftDownY=482, rightTopX=1213, rightTopY=421, rightDownX=1213, rightDownY=482, centerX=1142, centerY=452, mainNumR=4, mainNumC=1}
+2019-12-08 18:55:13.504[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=17, roomName='医疗室', leftTopX=285, leftTopY=162, leftDownX=285, leftDownY=258, rightTopX=377, rightTopY=162, rightDownX=376, rightDownY=258, centerX=333, centerY=211, mainNumR=2, mainNumC=2}
+2019-12-08 18:55:13.515[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=16, roomName='约束室', leftTopX=1058, leftTopY=490, leftDownX=1058, leftDownY=566, rightTopX=1213, rightTopY=490, rightDownX=1213, rightDownY=566, centerX=1142, centerY=528, mainNumR=4, mainNumC=2}
+2019-12-08 18:55:13.529[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=19, roomName='辨认室', leftTopX=517, leftTopY=162, leftDownX=517, leftDownY=258, rightTopX=632, rightTopY=162, rightDownX=632, rightDownY=258, centerX=577, centerY=211, mainNumR=3, mainNumC=2}
+2019-12-08 18:55:13.543[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=18, roomName='讯问室7', leftTopX=383, leftTopY=162, leftDownX=383, leftDownY=258, rightTopX=512, rightTopY=162, rightDownX=512, rightDownY=258, centerX=453, centerY=211, mainNumR=3, mainNumC=2}
+2019-12-08 18:55:13.553[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=21, roomName='法制视频监督信息中心', leftTopX=798, leftTopY=162, leftDownX=798, leftDownY=230, rightTopX=970, rightTopY=162, rightDownX=970, rightDownY=230, centerX=883, centerY=198, mainNumR=5, mainNumC=2}
+2019-12-08 18:55:13.569[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=20, roomName='音视频刻录室', leftTopX=637, leftTopY=162, leftDownX=637, leftDownY=230, rightTopX=792, rightTopY=162, rightDownX=792, rightDownY=230, centerX=716, centerY=198, mainNumR=4, mainNumC=2}
+2019-12-08 18:55:13.583[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=23, roomName='人员信息采集室', leftTopX=285, leftTopY=330, leftDownX=285, leftDownY=416, rightTopX=433, rightTopY=330, rightDownX=433, rightDownY=416, centerX=361, centerY=372, mainNumR=4, mainNumC=2}
+2019-12-08 18:55:13.598[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=22, roomName='文印室', leftTopX=285, leftTopY=270, leftDownX=285, leftDownY=325, rightTopX=433, rightTopY=270, rightDownX=433, rightDownY=325, centerX=361, centerY=296, mainNumR=4, mainNumC=1}
+2019-12-08 18:55:13.614[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=25, roomName='设备间', leftTopX=15, leftTopY=476, leftDownX=15, leftDownY=636, rightTopX=141, rightTopY=476, rightDownX=141, rightDownY=636, centerX=76, centerY=546, mainNumR=3, mainNumC=4}
+2019-12-08 18:55:13.630[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=24, roomName='案件会商室', leftTopX=438, leftTopY=270, leftDownX=438, leftDownY=415, rightTopX=631, rightTopY=270, rightDownX=631, rightDownY=415, centerX=532, centerY=337, mainNumR=5, mainNumC=4}
+2019-12-08 18:55:13.644[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=27, roomName='安全检查室', leftTopX=426, leftTopY=476, leftDownX=426, leftDownY=636, rightTopX=532, rightTopY=476, rightDownX=532, rightDownY=636, centerX=481, centerY=546, mainNumR=3, mainNumC=4}
+2019-12-08 18:55:13.657[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=26, roomName='涉案物品保管室', leftTopX=151, leftTopY=476, leftDownX=151, leftDownY=636, rightTopX=416, rightTopY=476, rightDownX=416, rightDownY=636, centerX=281, centerY=546, mainNumR=7, mainNumC=4}
+2019-12-08 18:55:13.675[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=29, roomName='测谎室', leftTopX=823, leftTopY=476, leftDownX=823, leftDownY=538, rightTopX=965, rightTopY=476, rightDownX=965, rightDownY=538, centerX=895, centerY=510, mainNumR=4, mainNumC=1}
+2019-12-08 18:55:13.694[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=28, roomName='值班登记室', leftTopX=541, leftTopY=476, leftDownX=541, leftDownY=636, rightTopX=692, rightTopY=476, rightDownX=692, rightDownY=636, centerX=617, centerY=546, mainNumR=4, mainNumC=4}
+2019-12-08 18:55:13.709[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=30, roomName='心理测试室', leftTopX=823, leftTopY=547, leftDownX=823, leftDownY=636, rightTopX=965, rightTopY=547, rightDownX=965, rightDownY=636, centerX=893, centerY=591, mainNumR=4, mainNumC=2}
+2019-12-08 18:55:13.723[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -================获取到定位配置信息end=========================
+2019-12-08 18:55:14.273[main]INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter -Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2db18f22: startup date [Sun Dec 08 18:55:09 CST 2019]; root of context hierarchy
+2019-12-08 18:55:14.451[main]INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/queryPersonRoundDataBySerialId]}" onto private com.zhixin.wolf.entity.PersonRoundEntity com.zhixin.wolf.controller.MapServicesController.queryPersonRoundDataBySerialId(javax.servlet.http.HttpServletRequest)
+2019-12-08 18:55:14.459[main]INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/queryPersonLocations]}" onto private java.util.List<com.zhixin.wolf.entity.PersonLocationEntity> com.zhixin.wolf.controller.MapServicesController.queryPersonLocations()
+2019-12-08 18:55:14.467[main]INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-12-08 18:55:14.468[main]INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-12-08 18:55:14.531[main]INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-08 18:55:14.533[main]INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-08 18:55:14.604[main]INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-08 18:55:14.964[main]INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -Registering beans for JMX exposure on startup
+2019-12-08 18:55:15.049[main]INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8000"]
+2019-12-08 18:55:15.086[main]INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-8000"]
+2019-12-08 18:55:15.104[main]ERROR org.apache.coyote.http11.Http11NioProtocol -Failed to start end point associated with ProtocolHandler ["http-nio-8000"]
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:463)
+	at sun.nio.ch.Net.bind(Net.java:455)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:978)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:628)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.zhixin.wolf.main.Map2DServicesApplication.main(Map2DServicesApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:50)
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:51)
+2019-12-08 18:55:15.129[main]ERROR org.apache.catalina.core.StandardService -Failed to start connector [Connector[HTTP/1.1-8000]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8000]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.zhixin.wolf.main.Map2DServicesApplication.main(Map2DServicesApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:50)
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:51)
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Tomcat";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1029)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 21 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:463)
+	at sun.nio.ch.Net.bind(Net.java:455)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:978)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:628)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022)
+	... 22 common frames omitted
+2019-12-08 18:55:15.191[main]INFO  org.apache.coyote.http11.Http11NioProtocol -Pausing ProtocolHandler ["http-nio-8000"]
+2019-12-08 18:55:15.193[main]INFO  org.apache.catalina.core.StandardService -Stopping service [Tomcat]
+2019-12-08 18:55:15.222[main]INFO  org.apache.catalina.util.LifecycleBase -The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2019-12-08 18:55:15.224[main]INFO  org.apache.coyote.http11.Http11NioProtocol -Stopping ProtocolHandler ["http-nio-8000"]
+2019-12-08 18:55:15.228[main]INFO  org.apache.coyote.http11.Http11NioProtocol -Destroying ProtocolHandler ["http-nio-8000"]
+2019-12-08 18:55:15.245[main]INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer -
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2019-12-08 18:55:15.261[main]ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8000 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8000, or configure this application to listen on another port.
+
+2019-12-08 18:55:15.276[main]INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2db18f22: startup date [Sun Dec 08 18:55:09 CST 2019]; root of context hierarchy
+2019-12-08 18:55:15.284[main]INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -Unregistering JMX-exposed beans on shutdown
+2019-12-08 18:56:45.170[main]INFO  com.zhixin.wolf.main.Map2DServicesApplication -Starting Map2DServicesApplication v0.0.1-SNAPSHOT on DESKTOP-AFF7SD3 with PID 205220 (D:\item\2D效果\2D程序包\2D-Services-0.0.1-SNAPSHOT.jar started by wolf in D:\item\2D效果\2D程序包)
+2019-12-08 18:56:45.185[main]INFO  com.zhixin.wolf.main.Map2DServicesApplication -No active profile set, falling back to default profiles: default
+2019-12-08 18:56:45.352[main]INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5e5e5273: startup date [Sun Dec 08 18:56:45 CST 2019]; root of context hierarchy
+2019-12-08 18:56:46.132[background-preinit]INFO  org.hibernate.validator.internal.util.Version -HV000001: Hibernate Validator 5.3.5.Final
+2019-12-08 18:56:48.735[main]INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer -Tomcat initialized with port(s): 8000 (http)
+2019-12-08 18:56:48.756[main]INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2019-12-08 18:56:48.759[main]INFO  org.apache.catalina.core.StandardEngine -Starting Servlet Engine: Apache Tomcat/8.5.15
+2019-12-08 18:56:48.932[localhost-startStop-1]INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2019-12-08 18:56:48.932[localhost-startStop-1]INFO  org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 3580 ms
+2019-12-08 18:56:49.185[localhost-startStop-1]INFO  o.s.boot.web.servlet.ServletRegistrationBean -Mapping servlet: 'dispatcherServlet' to [/]
+2019-12-08 18:56:49.193[localhost-startStop-1]INFO  o.s.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-12-08 18:56:49.194[localhost-startStop-1]INFO  o.s.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-12-08 18:56:49.194[localhost-startStop-1]INFO  o.s.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-12-08 18:56:49.194[localhost-startStop-1]INFO  o.s.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'requestContextFilter' to: [/*]
+2019-12-08 18:56:49.295[main]WARN  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -Autowired annotation is not supported on static fields: private static java.lang.Integer com.zhixin.wolf.util.CoordinatesUtils.imgW
+2019-12-08 18:56:49.296[main]WARN  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -Autowired annotation is not supported on static fields: private static java.lang.Integer com.zhixin.wolf.util.CoordinatesUtils.imgH
+2019-12-08 18:56:49.296[main]WARN  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -Autowired annotation is not supported on static fields: private static java.lang.Integer com.zhixin.wolf.util.CoordinatesUtils.imgI
+2019-12-08 18:56:49.305[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -================获取到定位配置信息start=======================
+2019-12-08 18:56:49.311[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=1, roomName='卫生间', leftTopX=15, leftTopY=7, leftDownX=15, leftDownY=157, rightTopX=145, rightTopY=7, rightDownX=145, rightDownY=157, centerX=82, centerY=87, mainNumR=3, mainNumC=4}
+2019-12-08 18:56:49.317[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=2, roomName='讯问室3', leftTopX=159, leftTopY=7, leftDownX=160, leftDownY=99, rightTopX=293, rightTopY=7, rightDownX=293, rightDownY=99, centerX=218, centerY=52, mainNumR=3, mainNumC=2}
+2019-12-08 18:56:49.325[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=3, roomName='案审指挥室', leftTopX=304, leftTopY=7, leftDownX=304, leftDownY=99, rightTopX=417, rightTopY=7, rightDownX=417, rightDownY=99, centerX=365, centerY=52, mainNumR=3, mainNumC=2}
+2019-12-08 18:56:49.331[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=4, roomName='讯问室4', leftTopX=428, leftTopY=7, leftDownX=428, leftDownY=99, rightTopX=558, rightTopY=7, rightDownX=558, rightDownY=99, centerX=502, centerY=52, mainNumR=3, mainNumC=2}
+2019-12-08 18:56:49.340[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=5, roomName='讯问室5', leftTopX=571, leftTopY=7, leftDownX=571, leftDownY=99, rightTopX=702, rightTopY=7, rightDownX=702, rightDownY=99, centerX=637, centerY=52, mainNumR=3, mainNumC=2}
+2019-12-08 18:56:49.347[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=6, roomName='案件指挥室', leftTopX=715, leftTopY=7, leftDownX=715, leftDownY=99, rightTopX=826, rightTopY=7, rightDownX=826, rightDownY=99, centerX=776, centerY=52, mainNumR=3, mainNumC=2}
+2019-12-08 18:56:49.354[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=7, roomName='讯问室6', leftTopX=838, leftTopY=7, leftDownX=838, leftDownY=99, rightTopX=970, rightTopY=7, rightDownX=970, rightDownY=99, centerX=912, centerY=52, mainNumR=3, mainNumC=2}
+2019-12-08 18:56:49.360[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=8, roomName='候问室2', leftTopX=15, leftTopY=167, leftDownX=15, leftDownY=217, rightTopX=196, rightTopY=167, rightDownX=196, rightDownY=216, centerX=107, centerY=193, mainNumR=5, mainNumC=1}
+2019-12-08 18:56:49.367[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=9, roomName='讯问室2', leftTopX=15, leftTopY=226, leftDownX=15, leftDownY=316, rightTopX=196, rightTopY=226, rightDownX=196, rightDownY=316, centerX=107, centerY=273, mainNumR=5, mainNumC=2}
+2019-12-08 18:56:49.377[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=10, roomName='讯问室1', leftTopX=15, leftTopY=326, leftDownX=15, leftDownY=410, rightTopX=196, rightTopY=326, rightDownX=196, rightDownY=410, centerX=107, centerY=370, mainNumR=5, mainNumC=2}
+2019-12-08 18:56:49.391[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=11, roomName='候问室1', leftTopX=15, leftTopY=417, leftDownX=15, leftDownY=468, rightTopX=196, rightTopY=417, rightDownX=196, rightDownY=468, centerX=107, centerY=443, mainNumR=5, mainNumC=1}
+2019-12-08 18:56:49.407[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=12, roomName='询问室1', leftTopX=1058, leftTopY=178, leftDownX=1058, leftDownY=260, rightTopX=1213, rightTopY=178, rightDownX=1213, rightDownY=260, centerX=1142, centerY=221, mainNumR=4, mainNumC=2}
+2019-12-08 18:56:49.421[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=13, roomName='候问室3', leftTopX=1058, leftTopY=267, leftDownX=1058, leftDownY=327, rightTopX=1213, rightTopY=267, rightDownX=1213, rightDownY=327, centerX=1142, centerY=297, mainNumR=4, mainNumC=1}
+2019-12-08 18:56:49.433[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=14, roomName='询问室2', leftTopX=1058, leftTopY=335, leftDownX=1058, leftDownY=415, rightTopX=1213, rightTopY=335, rightDownX=1213, rightDownY=415, centerX=1142, centerY=376, mainNumR=4, mainNumC=2}
+2019-12-08 18:56:49.449[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=15, roomName='候问室4', leftTopX=1058, leftTopY=421, leftDownX=1058, leftDownY=482, rightTopX=1213, rightTopY=421, rightDownX=1213, rightDownY=482, centerX=1142, centerY=452, mainNumR=4, mainNumC=1}
+2019-12-08 18:56:49.461[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=17, roomName='医疗室', leftTopX=285, leftTopY=162, leftDownX=285, leftDownY=258, rightTopX=377, rightTopY=162, rightDownX=376, rightDownY=258, centerX=333, centerY=211, mainNumR=2, mainNumC=2}
+2019-12-08 18:56:49.471[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=16, roomName='约束室', leftTopX=1058, leftTopY=490, leftDownX=1058, leftDownY=566, rightTopX=1213, rightTopY=490, rightDownX=1213, rightDownY=566, centerX=1142, centerY=528, mainNumR=4, mainNumC=2}
+2019-12-08 18:56:49.489[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=19, roomName='辨认室', leftTopX=517, leftTopY=162, leftDownX=517, leftDownY=258, rightTopX=632, rightTopY=162, rightDownX=632, rightDownY=258, centerX=577, centerY=211, mainNumR=3, mainNumC=2}
+2019-12-08 18:56:49.501[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=18, roomName='讯问室7', leftTopX=383, leftTopY=162, leftDownX=383, leftDownY=258, rightTopX=512, rightTopY=162, rightDownX=512, rightDownY=258, centerX=453, centerY=211, mainNumR=3, mainNumC=2}
+2019-12-08 18:56:49.515[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=21, roomName='法制视频监督信息中心', leftTopX=798, leftTopY=162, leftDownX=798, leftDownY=230, rightTopX=970, rightTopY=162, rightDownX=970, rightDownY=230, centerX=883, centerY=198, mainNumR=5, mainNumC=2}
+2019-12-08 18:56:49.528[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=20, roomName='音视频刻录室', leftTopX=637, leftTopY=162, leftDownX=637, leftDownY=230, rightTopX=792, rightTopY=162, rightDownX=792, rightDownY=230, centerX=716, centerY=198, mainNumR=4, mainNumC=2}
+2019-12-08 18:56:49.550[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=23, roomName='人员信息采集室', leftTopX=285, leftTopY=330, leftDownX=285, leftDownY=416, rightTopX=433, rightTopY=330, rightDownX=433, rightDownY=416, centerX=361, centerY=372, mainNumR=4, mainNumC=2}
+2019-12-08 18:56:49.562[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=22, roomName='文印室', leftTopX=285, leftTopY=270, leftDownX=285, leftDownY=325, rightTopX=433, rightTopY=270, rightDownX=433, rightDownY=325, centerX=361, centerY=296, mainNumR=4, mainNumC=1}
+2019-12-08 18:56:49.578[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=25, roomName='设备间', leftTopX=15, leftTopY=476, leftDownX=15, leftDownY=636, rightTopX=141, rightTopY=476, rightDownX=141, rightDownY=636, centerX=76, centerY=546, mainNumR=3, mainNumC=4}
+2019-12-08 18:56:49.595[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=24, roomName='案件会商室', leftTopX=438, leftTopY=270, leftDownX=438, leftDownY=415, rightTopX=631, rightTopY=270, rightDownX=631, rightDownY=415, centerX=532, centerY=337, mainNumR=5, mainNumC=4}
+2019-12-08 18:56:49.607[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=27, roomName='安全检查室', leftTopX=426, leftTopY=476, leftDownX=426, leftDownY=636, rightTopX=532, rightTopY=476, rightDownX=532, rightDownY=636, centerX=481, centerY=546, mainNumR=3, mainNumC=4}
+2019-12-08 18:56:49.618[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=26, roomName='涉案物品保管室', leftTopX=151, leftTopY=476, leftDownX=151, leftDownY=636, rightTopX=416, rightTopY=476, rightDownX=416, rightDownY=636, centerX=281, centerY=546, mainNumR=7, mainNumC=4}
+2019-12-08 18:56:49.636[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=29, roomName='测谎室', leftTopX=823, leftTopY=476, leftDownX=823, leftDownY=538, rightTopX=965, rightTopY=476, rightDownX=965, rightDownY=538, centerX=895, centerY=510, mainNumR=4, mainNumC=1}
+2019-12-08 18:56:49.649[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=28, roomName='值班登记室', leftTopX=541, leftTopY=476, leftDownX=541, leftDownY=636, rightTopX=692, rightTopY=476, rightDownX=692, rightDownY=636, centerX=617, centerY=546, mainNumR=4, mainNumC=4}
+2019-12-08 18:56:49.665[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -{roomId=30, roomName='心理测试室', leftTopX=823, leftTopY=547, leftDownX=823, leftDownY=636, rightTopX=965, rightTopY=547, rightDownX=965, rightDownY=636, centerX=893, centerY=591, mainNumR=4, mainNumC=2}
+2019-12-08 18:56:49.679[main]INFO  com.zhixin.wolf.util.CoordinatesUtils -================获取到定位配置信息end=========================
+2019-12-08 18:56:50.236[main]INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter -Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5e5e5273: startup date [Sun Dec 08 18:56:45 CST 2019]; root of context hierarchy
+2019-12-08 18:56:50.439[main]INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/queryPersonLocations]}" onto private java.util.List<com.zhixin.wolf.entity.PersonLocationEntity> com.zhixin.wolf.controller.MapServicesController.queryPersonLocations()
+2019-12-08 18:56:50.451[main]INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/queryPersonRoundDataBySerialId]}" onto private com.zhixin.wolf.entity.PersonRoundEntity com.zhixin.wolf.controller.MapServicesController.queryPersonRoundDataBySerialId(javax.servlet.http.HttpServletRequest)
+2019-12-08 18:56:50.459[main]INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-12-08 18:56:50.461[main]INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-12-08 18:56:50.555[main]INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-08 18:56:50.556[main]INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-08 18:56:50.645[main]INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-08 18:56:51.025[main]INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -Registering beans for JMX exposure on startup
+2019-12-08 18:56:51.101[main]INFO  org.apache.coyote.http11.Http11NioProtocol -Initializing ProtocolHandler ["http-nio-8000"]
+2019-12-08 18:56:51.131[main]INFO  org.apache.coyote.http11.Http11NioProtocol -Starting ProtocolHandler ["http-nio-8000"]
+2019-12-08 18:56:51.150[main]ERROR org.apache.coyote.http11.Http11NioProtocol -Failed to start end point associated with ProtocolHandler ["http-nio-8000"]
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:463)
+	at sun.nio.ch.Net.bind(Net.java:455)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:978)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:628)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.zhixin.wolf.main.Map2DServicesApplication.main(Map2DServicesApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:50)
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:51)
+2019-12-08 18:56:51.175[main]ERROR org.apache.catalina.core.StandardService -Failed to start connector [Connector[HTTP/1.1-8000]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8000]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.zhixin.wolf.main.Map2DServicesApplication.main(Map2DServicesApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:48)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:87)
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:50)
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:51)
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Tomcat";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1029)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 21 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:463)
+	at sun.nio.ch.Net.bind(Net.java:455)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:978)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:628)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022)
+	... 22 common frames omitted
+2019-12-08 18:56:51.242[main]INFO  org.apache.coyote.http11.Http11NioProtocol -Pausing ProtocolHandler ["http-nio-8000"]
+2019-12-08 18:56:51.243[main]INFO  org.apache.catalina.core.StandardService -Stopping service [Tomcat]
+2019-12-08 18:56:51.273[main]INFO  org.apache.catalina.util.LifecycleBase -The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2019-12-08 18:56:51.274[main]INFO  org.apache.coyote.http11.Http11NioProtocol -Stopping ProtocolHandler ["http-nio-8000"]
+2019-12-08 18:56:51.286[main]INFO  org.apache.coyote.http11.Http11NioProtocol -Destroying ProtocolHandler ["http-nio-8000"]
+2019-12-08 18:56:51.303[main]INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer -
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2019-12-08 18:56:51.327[main]ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8000 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8000, or configure this application to listen on another port.
+
+2019-12-08 18:56:51.346[main]INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5e5e5273: startup date [Sun Dec 08 18:56:45 CST 2019]; root of context hierarchy
+2019-12-08 18:56:51.363[main]INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -Unregistering JMX-exposed beans on shutdown

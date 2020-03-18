@@ -1,0 +1,38 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css"	href="jquery-easyui-1.7.0/themes/bf/easyui2.css">
+	<link rel="stylesheet" type="text/css"	href="jquery-easyui-1.7.0/themes/icon.css">
+	<link rel="stylesheet" type="text/css"	href="jquery-easyui-1.7.0/demo/demo.css">
+	<script type="text/javascript"	src="jquery-easyui-1.7.0/jquery.min.js"></script>
+	<script type="text/javascript"	src="jquery-easyui-1.7.0/jquery.easyui.min.js"></script>
+	<script type="text/javascript"	src="jquery-easyui-1.7.0/locale/easyui-lang-zh_CN.js"></script>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>手环地图</title>
+	<script type="text/javascript" src="index.js"></script>
+</head>
+
+<body>
+	<div id="personListLayout" class="easyui-layout" style="width: 100%;height: 100%">
+		<div data-options="region:'west',title:'在区嫌疑人列表',collapsible:false" style="width:260px;">
+			<div id="myAccordion" class="easyui-accordion" data-options="multiple:true,selected:false">
+			</div>
+		</div>
+		<div data-options="region:'center'">
+			<div class="easyui-layout" data-options="fit:true">
+				<div data-options="region:'north'" style="padding-left:20px;padding-top:20px;height:50px;">
+					<span style="float:left;font-size: 15px;">缩放比例：</span>
+					<div style="float:left;">
+						<div id="mySlider" class="easyui-slider" data-options="min:0.5,max:2,step:0.1,showTip:true,value:1,tipFormatter:function(val){return (val*10)+'0%';}"
+							 style="width:200px;"></div>
+					</div>
+					<span style="float:left;font-size: 15px;padding-left: 20px;">所有房间实时视频：</span>
+					<select id="myVideoTree" class="easyui-combotree" style="width:200px;"></select>
+				</div>
+				<div data-options="region:'center'">
+					<iframe id="myIframe" src="main.html" style="width: 99%;height: 98%"></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

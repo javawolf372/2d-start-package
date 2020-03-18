@@ -1,0 +1,28 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css"	href="../jquery-easyui-1.7.0/themes/bf/easyui2.css">
+	<link rel="stylesheet" type="text/css"	href="../jquery-easyui-1.7.0/themes/icon.css">
+	<link rel="stylesheet" type="text/css"	href="../jquery-easyui-1.7.0/demo/demo.css">
+	<script type="text/javascript"	src="../jquery-easyui-1.7.0/jquery.min.js"></script>
+	<script type="text/javascript"	src="../jquery-easyui-1.7.0/jquery.easyui.min.js"></script>
+	<script type="text/javascript"	src="../jquery-easyui-1.7.0/locale/easyui-lang-zh_CN.js"></script>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>坐标系</title>
+	<script type="text/javascript" src="main.js"></script>
+</head>
+
+<body>
+	<div id="xyDiv" style="float: right;vertical-align: middle">
+		<spn style="font-weight: bold">坐标系（</spn>
+		<span>X：</span>
+		<span id="spanX"></span>
+		<spn>，</spn>
+		<span>Y：</span>
+		<span id="spanY"></span>
+		<spn>）</spn>
+	</div>
+	<div id="coordinatesMainDiv" onmousemove="mo(event)" style="position:absolute;background: url(../image/bazx.png) no-repeat center;background-size:cover;" >
+
+	</div>
+</body>
+</html>

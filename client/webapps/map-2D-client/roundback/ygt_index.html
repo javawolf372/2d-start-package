@@ -1,0 +1,37 @@
+﻿<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>jQuery旅行者竖直时间轴代码</title>
+  <link rel="stylesheet" type="text/css"	href="../jquery-easyui-1.7.0/themes/bf/easyui2.css">
+  <link rel="stylesheet" type="text/css"	href="../jquery-easyui-1.7.0/themes/icon.css">
+  <link rel="stylesheet" type="text/css"	href="../jquery-easyui-1.7.0/demo/demo.css">
+  <link rel="stylesheet" type="text/css"	href="css/css.css">
+  <script src="js/jquery.min.js"></script>
+</head>
+<body style="overflow: auto">
+
+<script src="js/jquery.waypoints.min.js"></script>
+<section class="timeline">
+  <div class="wrapper" id="myGj"></div>
+</section>
+
+<script>
+  function showGj(data){
+    var gjHtml = "";
+    if(data && data.length>0){
+      $.each(data, function(i, item){
+        gjHtml += '<div class="timeline__item timeline__item--'+i+' timeline__item-bg"><div class="timeline__item__station">' +
+                '</div><div class="timeline__item__content"><h2 class="timeline__item__content__date">'+item.roomName+'</h2>' +
+                '<p class="timeline__item__content__description">'+item.startTime+'<br/><span style="margin-left: 50px;">至' +
+                '</span><br/>'+item.endTime+'</p> </div> </div>';
+      });
+    }
+    $("#myGj").html(gjHtml);
+  }
+
+</script>
+
+</body>
+</html>
+
